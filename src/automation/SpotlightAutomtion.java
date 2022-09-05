@@ -29,6 +29,9 @@ public class SpotlightAutomtion extends base {
 	public static void waitforElement(String s, AndroidDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(s)));
+		System.out.println("Testing");
+		System.out.println("Testing2");
+		System.out.println("Testing3");
 	}
 	
 	public static void scrollAndClick(String visibleText, AndroidDriver driver) {
