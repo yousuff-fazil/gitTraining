@@ -32,6 +32,8 @@ public class SpotlightAutomtion extends base {
 		System.out.println("Testing");
 		System.out.println("Testing2");
 		System.out.println("Testing3");
+		System.out.println("Testing5");
+		System.out.println("Testing4");
 	}
 	
 	public static void scrollAndClick(String visibleText, AndroidDriver driver) {
